@@ -3,7 +3,7 @@
 	db  55,  81,  60,  97,  50
 	;   hp  atk  def  spd  spc
 
-	db NORMAL, NORMAL ; type
+	db NORMAL, DARK ; type
 	db 90 ; catch rate
 	db 116 ; base exp
 
@@ -17,7 +17,7 @@
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   RAGE,         \
 	     THUNDERBOLT,  THUNDER,      DIG,          MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE
+	     BIDE,   SKULL_BASH,   REST,         SUBSTITUTE
 	; end
 
 	db 0 ; padding

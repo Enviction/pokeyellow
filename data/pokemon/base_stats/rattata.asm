@@ -3,7 +3,7 @@
 	db  30,  56,  35,  72,  25
 	;   hp  atk  def  spd  spc
 
-	db NORMAL, NORMAL ; type
+	db NORMAL, DARK ; type
 	db 255 ; catch rate
 	db 57 ; base exp
 
@@ -16,7 +16,7 @@
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    BLIZZARD,     RAGE,         THUNDERBOLT,  THUNDER,      \
-	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
+	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,  \
 	     SKULL_BASH,   REST,         SUBSTITUTE
 	; end
 

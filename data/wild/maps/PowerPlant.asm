@@ -8,8 +8,8 @@ PowerPlantWildMons:
 	db 33, GRIMER
 	db 37, GRIMER
 	db 38, MAGNETON
-	db 33, MUK
-	db 37, MUK
+	db 33, PIKACHU
+	db 37, ELECTABUZZ
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

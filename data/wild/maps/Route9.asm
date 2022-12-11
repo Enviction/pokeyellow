@@ -8,7 +8,7 @@ Route9WildMons:
 	db 17, SPEAROW
 	db 18, NIDORINO
 	db 18, NIDORINA
-	db 20, RATICATE
+	db 20, MEOWTH
 	db 19, FEAROW
 	end_grass_wildmons
 

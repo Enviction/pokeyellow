@@ -165,6 +165,7 @@ AttackAnimationPointers:
 	dw SlashAnim
 	dw SubstituteAnim
 	dw StruggleAnim
+	dw DragonBreathAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
 	dw EnemyFlashAnim
@@ -493,7 +494,8 @@ AcidAnim:
 EmberAnim:
 	battle_anim EMBER, SUBANIM_1_FLAMES, 1, 6
 	db -1 ; end
-
+	
+DragonBreathAnim:
 FlamethrowerAnim:
 	battle_anim FLAMETHROWER, SUBANIM_1_FLAME_BEAM, 1, 6
 	battle_anim FLAMETHROWER, SUBANIM_1_FLAME_COLUMN_1, 1, 6
